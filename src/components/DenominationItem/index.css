@@ -1,0 +1,18 @@
+.con {
+  width: 50%;
+  list-style-type: none;
+}
+
+.button {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #d4d2db;
+  background-color: #382f5a;
+  color: #c4c4c4;
+  width: 90%;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}

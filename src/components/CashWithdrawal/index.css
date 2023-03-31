@@ -1,0 +1,91 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #150b3e;
+  border-radius: 10px;
+  padding: 20px;
+  width: 50%;
+}
+
+.name-con {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.initial {
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+.name {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+
+.balance {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.your-balance {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.rupees {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.rup {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  text-align: end;
+  margin-top: 0px;
+}
+
+.withdraw {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.sum {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
